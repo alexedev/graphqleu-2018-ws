@@ -5,7 +5,5 @@
   "repository": "git@github.com:alexedev/graphqleu-2018-ws.git",
   "author": "Alex Alexeev <work2alex@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "node-fetch": "^2.1.2"
-  }
+  "dependencies": {}
 }
