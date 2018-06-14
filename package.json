@@ -5,5 +5,8 @@
   "repository": "git@github.com:alexedev/graphqleu-2018-ws.git",
   "author": "Alex Alexeev <work2alex@gmail.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "graphql": "^0.13.2",
+    "prisma-binding": "^2.1.0"
+  }
 }
