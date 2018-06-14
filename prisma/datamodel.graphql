@@ -9,5 +9,5 @@ type Post {
   title: String!
   content: String!
   published: Boolean! @default(value: "false")
-  author: User!
+  author: User
 }
