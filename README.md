@@ -1,4 +1,4 @@
-# 🇪🇺 GraphQL Europe Workshop - GraphQL Bindings 
+# 🇪🇺 GraphQL Europe Workshop - GraphQL Bindings 🇪🇺 
 
 ![](https://imgur.com/eMvvZcy.png)
 
