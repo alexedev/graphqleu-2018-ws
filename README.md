@@ -1,77 +1,107 @@
 # GraphQL Europe workshop: Build GraphQL servers with Node & Prisma
 
-## DEMO 1
+![](https://imgur.com/eMvvZcy.png)
+
+## Demo 1
 
 ### Used commands
 
 #### Install Prisma globally
 
-    npm install -g prisma
-    OR
-    yarn global add prisma
+```bash
+npm install -g prisma
+# OR
+yarn global add prisma
+```
 
 #### Initialize Prisma server
 
-    prisma init your-project-name
+```bash
+prisma init your-project-name
+```
 
-_note:_ select Demo server (Prisma Cloud) and register with GitHub account
+> **Note**: Select **Demo server** and register with Prisma Cloud (e.g. using your GitHub account)
 
 #### Deploy Prisma service
 
-        cd your-project-name
-        prisma deploy
+```bash
+cd your-project-name
+prisma deploy
+```
 
-_note:_ do it each time you update the schema for now (we will add a post-deploy hook later )
+> **Note**: Do it each time you update the schema for now (we will add a post-deploy hook later )
 
 #### Play with Prisma API (send some queries)
 
-    prisma playground
+```bash
+prisma playground
+```
 
 ### Steps (check out if you get lost)
 
-1.  [Prisma initiated with default schema](https://github.com/alexedev/graphqleu-2018-ws/tree/v0)
+1. [Prisma initiated with default data model](https://github.com/alexedev/graphqleu-2018-ws/tree/v0)
 
-        git checkout v0
+    ```bash
+    git checkout v0
+    ```
 
-2)  [Schema updated with Post type](https://github.com/alexedev/graphqleu-2018-ws/tree/v1)
+2. [Data model updated with `Post` type](https://github.com/alexedev/graphqleu-2018-ws/tree/v1)
 
-        git checkout v1
+    ```bash
+    git checkout v1
+    ```
 
-## DEMO 2
+## Demo 2
 
 ### Used commands
 
-_For fetch example:_
+_For `fetch` example:_
 
-    yarn init -y
-    yarn add node-fetch
+```bash
+yarn init -y
+yarn add node-fetch
+```
 
 **Install Prisma bindings**
 
-    yarn add prisma-binding graphql
+```bash
+yarn add prisma-binding graphql
+```
 
-**Install graphq-cli to get remote schema**
+**Install [graphq-cli](https://github.com/graphql-cli/graphql-cli) to download Prisma's auto-generated GraphQL schema**
 
-    yarn global add graphql-cli
+```bash
+yarn global add graphql-cli
+```
 
 **Get remote schema (after adding .graphqlconfig.yml)**
 
-    graphql get-schema
+```bash
+graphql get-schema
+```
 
 ### Steps (check out if you get lost)
 
-3.  [Example of calling prisma gql queries with fetch](<(https://github.com/alexedev/graphqleu-2018-ws/tree/v1.1)>)
+3. [Example of calling prisma gql queries with `fetch`](https://github.com/alexedev/graphqleu-2018-ws/tree/v1.1)
 
-        git checkout v1.1
+    ```bash
+    git checkout v1.1
+    ```
 
-4.  [Clean up before adding prisma bindings](<(https://github.com/alexedev/graphqleu-2018-ws/tree/v2)>)
+4. [Clean up before adding Prisma bindings](https://github.com/alexedev/graphqleu-2018-ws/tree/v2)
 
-        git checkout v2
+    ```bash
+    git checkout v2
+    ```
 
-5.  [Instantiate Prisma bindings](<(https://github.com/alexedev/graphqleu-2018-ws/tree/v2.1)>)
+5. [Instantiate `Prisma` bindings](https://github.com/alexedev/graphqleu-2018-ws/tree/v2.1)
 
-        git checkout v2.1
+    ```bash
+    git checkout v2.1
+    ```
 
-6.  [Add Prisma bindings example](<(https://github.com/alexedev/graphqleu-2018-ws/tree/v2.2)>)
+6. [Add `Prisma` bindings example](https://github.com/alexedev/graphqleu-2018-ws/tree/v2.2)
 
-        git checkout v2.2
+    ```bash
+    git checkout v2.2
+    ```
