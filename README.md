@@ -1,4 +1,4 @@
-# GraphQL Europe workshop: Build GraphQL servers with Node & Prisma
+# 🇪🇺 GraphQL Europe Workshop - GraphQL Bindings 
 
 ![](https://imgur.com/eMvvZcy.png)
 
